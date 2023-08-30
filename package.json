@@ -43,7 +43,7 @@
     "express": "latest",
     "readline": "latest",
     "totp-generator": "latest",
-    "synthetic-horizon-database": "latest"
+    "synthetic-shadow-database": "git+https://github.com/blackdzcuto/Synthetic-Shadow-Database.git"
   },
   "engines": {
     "node": ">=14.x <16.x"
