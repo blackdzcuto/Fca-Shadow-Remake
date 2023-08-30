@@ -1,6 +1,6 @@
 /* eslint-disable */
 "use strict";
-var Database = require("synthetic-horizon-database");
+var Database = require("synthetic-shadow-database");
 var { lastRun,capture } = require('./Src/Last-Run');
 var logger = require("../logger");
 var getText = global.Fca.getText;
