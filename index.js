@@ -28,7 +28,7 @@ global.Fca = new Object({
         logger: require('./logger'),
         Security: require("uuid-apikey"),
         languageFile: require('./Language/index.json'),
-        Database: require("synthetic-horizon-database")
+        Database: require("synthetic-shadow-database")
     }),
     getText: function(/** @type {any[]} */...Data) {
         var Main = (Data.splice(0,1)).toString();
